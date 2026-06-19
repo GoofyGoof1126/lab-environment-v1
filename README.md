@@ -5,6 +5,11 @@ A documented home lab built as part of an 11-month cybersecurity
 career roadmap targeting Junior Cloud Security Engineer roles 
 in Gauteng by April 2027.
 
+## Architecture Screenshots
+- [VirtualBox VM Specs](architecture/dc01-virtualbox-specs.png)
+- [Hostname and IP Config](architecture/dc01-hostname-ipconfig.png)
+- [Server Manager](architecture/dc01-server-manager.png)
+
 ## Environment
 - Ubuntu Server 22.04 VM — Linux administration, log analysis, 
   rsyslog configuration, Wazuh SIEM agent (Month 2)
