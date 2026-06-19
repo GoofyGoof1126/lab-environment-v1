@@ -16,6 +16,11 @@ in Gauteng by April 2027.
 - Windows Server 2019 VM (DC01-LAB) — Active Directory Domain 
   Services, GPO configuration, Kerberoasting detection (Month 4)
 
+## Architecture Screenshots
+- [VirtualBox VM Specs](architecture/dc01-virtualbox-specs.png)
+- [Hostname and IP Config](architecture/dc01-hostname-ipconfig.png)
+- [Server Manager](architecture/dc01-server-manager.png)
+
 ## What gap does this close?
 Zero documented evidence of Linux or AD administration prior 
 to this lab. Every downstream project in this roadmap depends 
