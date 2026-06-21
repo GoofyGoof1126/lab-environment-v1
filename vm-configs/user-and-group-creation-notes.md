@@ -1,8 +1,8 @@
-# These are my notes I took along with the commands 
- of my creation and user assignment as well as group assignment 
- when creating a service account for my lab
+#These are my notes I took along with the commands 
+#of my creation and user assignment as well as group assignment 
+#when creating a service account for my lab
 
------------------User and group management ---------------------------
+# -----------------User and group management ---------------------------
 # Setup the Linux machine VM
  Create a service account - this is the same as the Wazuh will create its own(the '-m' is there to Tell the system
 to automatically build a personal home folder for the user )
