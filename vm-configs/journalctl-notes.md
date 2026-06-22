@@ -6,8 +6,8 @@
 # View all logs since last boot
 journalctl -b
 - When I ran this command I saw all enteries from the system when it comes to commands ran as well as what happened behind the screen in the sense of what happend in the system when running each command
-# example output:
-# ‹pre>Jun 21 13:44:59 LinuxVM-LAB systend[1305]: Queued start job for default target Main User Target.
+- example output:
+ ‹pre>Jun 21 13:44:59 LinuxVM-LAB systend[1305]: Queued start job for default target Main User Target.
 Jun 21 13:44:59 LinuxVM-LAB systend[1305]: Created slice User
 Application Slice.
 Jun 21 13:44:59 LinuxVM-LAB systemd[1305]: Created slice User Core
@@ -20,7 +20,7 @@ Jun 21 13:44:59 LinuxVM-LAB systemd[1305]: Reached target Timers.
 # View logs for a specific service
 journalctl -u ssh
 - There where no entries for the reason that there were no means of using ssh to any ports or user shells
-# The output said '--No enteries--' for the reason there were no ssh sessions that were live or requests that took place
+- The output said '--No enteries--' for the reason there were no ssh sessions that were live or requests that took place
 
 # View logs in a time window
 journalctl --since "1 hour ago"
