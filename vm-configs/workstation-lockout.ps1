@@ -1,11 +1,10 @@
-#!/bin/bash
 # Purpose: Automated script that checks for inactivity
-# after 15min of inactivity it will automatically lock you out 
-# to pervent any unathorised access to the workstation
+# After 15 minutes of inactivity, automatically locks the 
+# workstation to prevent unauthorised access
+# POPIA mapping: Section 19(1) - organisational measure
+# Schedule: Windows Task Scheduler
 
-# Script 
-
-# PowerShell Script – Set Machine Inactivity Limit to 15 Minutes
+# PowerShell Script - Set Machine Inactivity Limit to 15 Minutes
 
 # Define registry path and value
 $regPath = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System"
