@@ -1,3 +1,19 @@
+## rsyslog Custom Facility Configuration
+
+Configured /etc/rsyslog.d/50-default.conf to route local0 
+facility messages to a dedicated log file:
+local0.*    /var/log/custom-security.log
+
+Verified with: logger -p local0.info "Test security event"
+Confirmed entry landed correctly in custom-security.log with 
+proper timestamp.
+
+### Why this matters
+This is the same mechanism Wazuh and other log shippers rely on — 
+applications log to a facility, rsyslog routes it, and a SIEM 
+agent forwards it onward. Understanding manual facility routing 
+now means Month 2's Wazuh config won't be a black box.
+
 ## Log Analysis — grep/awk/sed/grep-P on auth.log
 
 ### Command Used
