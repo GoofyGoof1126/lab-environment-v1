@@ -8,7 +8,7 @@ blocking my CV: Linux administration and Active Directory.
 
 ## Environment Overview
 
-![Lab Topology](architecture/month-01-lab-topology.png)
+
 
 ### DC01-LAB — Windows Server 2019
 Domain controller for `pretorium.lab`. Hosts a structured OU 
